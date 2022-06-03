@@ -148,23 +148,32 @@ box-sizing: border-box;
 
 .hero-sec .left 
 button {
-    position: absolute;
-    margin-top: 15px;
-    margin-left: 68px;
-    width: 16%;
-    border-radius: 85px;
-    height: 35px;
-    background-color: #00856F;
-    padding: 15px 6px 0 1px;
-    border: none;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 16px;
+border: none;
+
+position: absolute;
+width: 263px;
+height: 52px;
+left: 123px;
+top: 405px;
+
+/* Primary Colors/brand-green */
+
+background: #00856F;
+border-radius: 40px;
 }
 
 .hero-sec .left 
 button .wha{
     position: relative;
     padding-right: -5px;
-    margin-right: 160px;
-    margin-top: -12px;
+    margin-right: 60px;
+    margin-top: 5px;
    
 }
 
@@ -173,16 +182,18 @@ button .btn-text{
     
     width: 163px;
     height: 18px;
-    margin-top: -19px;
-
-    font-family: "DM sans";
+    margin-left: -55px;
+    
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
-    margin-left: 35px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
-    color: #ffff;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .hero-sec .right img{
@@ -765,9 +776,9 @@ margin-top: 110px;
 margin-left: 103px;
 }
 
-h3{
+.sobre h3{
     position: absolute;
-    width: 87px;
+    /* width: 7px; */
     height: 21px;
     margin-left:  650px;
     margin-top:  123px;
@@ -775,39 +786,145 @@ h3{
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 150%;
     letter-spacing: 0.08em;
     color: #00856F;
 }
 
-.sobre_txt1{
+.sobre .sobre_txt1{
     position: absolute;
-    width: 447px;
+    /* width: 447px; */
     height: 104px;
-    margin-left:  540px;
+    margin-left:  650px;
     margin-top:  164px;
     
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 150%;
+    font-size: 40px;
+    line-height: 140%;
     letter-spacing: 0.08em;
+    color: #212529;
+}
+
+.sobre .sobre_txt2{
+    position: absolute;
+/* width: 573px; */
+height: 168px;
+margin-left:  650px;
+margin-top:  312px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #495057;
 }
 
 .contato{
     width: 100%;
     /* margin-top: -145px; */
     /* top: 815px; */
-    background-color: #c7794c;
-    height: 42rem;
+    background-color: #FFFFFF;
+    height: 32rem;
 }
 
+.contato .left{
+    position: absolute;
+    width: 28%;
+    /* margin-top: -145px; */
+    /* top: 815px; */
+    /* background-color: #c50909; */
+    padding-left: 15px;
+    height: 25rem;
+    margin-left: 185px;
+    margin-top: 65px;
+}
+
+.contato .left .contato_title{
+    position: absolute;
+width: 404px;
+height: 104px;
+
+font-family: "DM Sans";
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 42px;
+color: #212529;
+}
+
+.contato .left .location{
+    position: absolute;
+width: 186px;
+height: 24px;
+margin-left:  3px;
+margin-top:  112px;
+
+}
+
+.contato .left .location .endereco{
+    margin-top: -23px;
+    margin-left: 35px;
+}
+
+.contato .left .location1{
+    position: absolute;
+width: 186px;
+height: 24px;
+margin-left:  3px;
+margin-top:  172px;
+
+}
+
+.contato .left .location1 .endereco1{
+    margin-top: -23px;
+    margin-left: 35px;
+}
+
+.contato .left .btn_contato{
+    /* position: absolute;
+    margin-top: 265px;
+    /* margin-left: 8px; 
+    width: 50%;
+    height: 56px;
+    border-radius: 85px;
+    height: 35px;
+    background-color: #00856F;
+    padding: 15px 6px 0 1px;
+    border: none; */
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 16px;
+
+position: absolute;
+width: 267px;
+height: 56px;
+/* left: 3px; */
+top: 246px;
+
+/* Primary Colors/brand-green */
+
+background: #00856F;
+border-radius: 40px;
+}
+
+.contato .right{
+    position: absolute;
+width: 575px;
+height: 379px;
+margin-left:  758px;
+margin-top:  70px;
+}
 .footer{
     width: 100%;
     /* margin-top: -145px; */
     /* top: 815px; */
-    background-color: #583825;
+    background-color: var(--primary-color);
     height: 12rem;
 }
