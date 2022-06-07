@@ -885,16 +885,7 @@ margin-top:  172px;
 }
 
 .contato .left .btn_contato{
-    /* position: absolute;
-    margin-top: 265px;
-    /* margin-left: 8px; 
-    width: 50%;
-    height: 56px;
-    border-radius: 85px;
-    height: 35px;
-    background-color: #00856F;
-    padding: 15px 6px 0 1px;
-    border: none; */
+   
     display: flex;
 flex-direction: row;
 justify-content: center;
@@ -914,6 +905,34 @@ background: #00856F;
 border-radius: 40px;
 }
 
+.contato .left .btn_contato .contato_wha img{
+    position: absolute;
+    height: 24px;
+width: 36px;
+left: 32px;
+margin-left: -15px;
+margin-top:  -10px;
+border-radius: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.contato .left .btn_contato .contato-btn-text{
+    font-family: "DM Sans";
+    width: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+order: 1;
+flex-grow: 0;
+}
+
 .contato .right{
     position: absolute;
 width: 575px;
@@ -927,4 +946,95 @@ margin-top:  70px;
     /* top: 815px; */
     background-color: var(--primary-color);
     height: 12rem;
+}
+
+.footer .copy{
+    position: absolute;
+    color: #FFFFFF;
+width: 256px;
+height: 108px;
+left: 83px;
+margin-top: 80px;
+
+}
+
+.footer .copy .footer_title{
+    position: absolute;
+    margin-bottom: 15px;
+width: 256px;
+height: 33px;
+/* left: 53px; */
+margin-top: -30px;
+
+}
+
+.footer .copy .copy_right{
+    position: absolute;
+    margin-bottom: 15px;
+width: 256px;
+height: 33px;
+/* left: 53px; */
+margin-top: 25px;
+font-family: "DM Sans";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+/* Primary Colors/brand-beige */
+
+color: #FFFAF1;
+
+}
+
+.footer .copy .all_right{
+    position: absolute;
+    margin-bottom: 15px;
+width: 256px;
+height: 33px;
+/* left: 53px; */
+margin-top: 60px;
+font-family: "DM Sans";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+/* Primary Colors/brand-beige */
+
+color: #FFFAF1;
+
+}
+
+.footer .social{
+    position: absolute;
+width: 136px;
+height: 24px;
+margin-left:  1088px;
+margin-top:  90px;
+padding-left: 15px;
+}
+
+.footer .social .insta{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: -58px;
+top: 1px;
+
+}
+
+.footer .social .face{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: -5px;
+    top: 1px;
+}
+.footer .social .yt{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 45px;
+    top: 1px;
 }
