@@ -441,7 +441,499 @@ color: #737373;
 .who-are-we{
     /* position: relative; */
     background: #252b42;
-     height: 93rem; 
+     height: 123rem; 
     top: -100px;
     width: 100%;
+}
+
+.who-are-we .card1{
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 845px;
+    left: 150px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 238px;
+height: 314px;
+
+
+}
+.who-are-we .card1 .image1{
+    position: absolute;
+    height: 48px;
+width: 48px;
+left: 40px;
+top: 35px;
+border-radius: 0px;
+width: 48px;
+height: 48px;
+}
+
+.who-are-we .card1 .text1{
+    position: absolute;
+    
+left: 40px;
+top: 95px;
+    width: 81px;
+height: 48px;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+color: #252B42;
+
+}
+
+.who-are-we .card1 .text2{
+    position: relative;
+    width: 148px;
+height: 40px;
+margin: 5px 43px 0 40px;
+top: 165px;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+color: #737373;
+}
+
+.who-are-we .card1 .card-btn{
+    position: absolute;
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 30px;
+gap: 10px;
+margin: 235px 66px 35px 35px;
+
+width: 124px;
+height: 48px;
+border: 1px solid #295C7A;
+border-radius: 37px;
+flex: none;
+order: 3;
+}
+
+.who-are-we .card1 .card-txt{
+    position: absolute;
+    margin: 28px 56px 30px 1px;
+    width: 38px;
+    height: 28px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #295c7a;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.who-are-we .card1 .card-arr{
+    position: absolute;
+    background-image: url(../02/images/arrow.svg);
+    width: 16px;
+    height: 10px;
+    left: 80px;
+    top: 18.2px;
+}
+
+.who-are-we .card2{
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 845px;
+    margin-left: 424px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 238px;
+height: 314px;
+
+
+}
+.who-are-we .card2 .image1{
+    position: absolute;
+    height: 48px;
+width: 48px;
+left: 40px;
+top: 35px;
+background-image: url(../02/images/icon3.svg);
+border-radius: 0px;
+width: 48px;
+height: 48px;
+}
+
+.who-are-we .card2 .text1{
+    position: absolute;
+    
+left: 40px;
+top: 95px;
+    width: 74px;
+height: 48px;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+color: #252B42;
+
+}
+
+.who-are-we .card2 .text2{
+    position: relative;
+    width: 148px;
+height: 40px;
+margin: 5px 43px 0 40px;
+top: 165px;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+color: #737373;
+}
+
+.who-are-we .card2 .card-btn{
+    position: absolute;
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 30px;
+gap: 10px;
+margin: 235px 66px 35px 35px;
+
+width: 124px;
+height: 48px;
+border: 1px solid #295C7A;
+border-radius: 37px;
+flex: none;
+order: 3;
+}
+
+.who-are-we .card2 .card-txt{
+    position: absolute;
+    margin: 28px 56px 30px 1px;
+    width: 38px;
+    height: 28px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #295c7a;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.who-are-we .card2 .card-arr{
+    position: absolute;
+    background-image: url(../02/images/arrow.svg);
+    width: 16px;
+    height: 10px;
+    left: 80px;
+    top: 18.2px;
+}
+
+.who-are-we .card3{
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 845px;
+    margin-left: 696px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 238px;
+height: 314px;
+
+
+}
+.who-are-we .card3 .image1{
+    position: absolute;
+    height: 48px;
+width: 48px;
+left: 40px;
+top: 35px;
+background-image: url(../02/images/2.svg);
+border-radius: 0px;
+width: 48px;
+height: 48px;
+}
+
+.who-are-we .card3 .text1{
+    position: absolute;
+    
+left: 40px;
+top: 95px;
+    width: 110px;
+height: 48px;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+color: #252B42;
+
+}
+
+.who-are-we .card3 .text2{
+    position: relative;
+    width: 148px;
+height: 40px;
+margin: 5px 43px 0 40px;
+top: 165px;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+color: #737373;
+}
+
+.who-are-we .card3 .card-btn{
+    position: absolute;
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 30px;
+gap: 10px;
+margin: 235px 66px 35px 35px;
+
+width: 124px;
+height: 48px;
+border: 1px solid #295C7A;
+border-radius: 37px;
+flex: none;
+order: 3;
+}
+
+.who-are-we .card3 .card-txt{
+    position: absolute;
+    margin: 28px 56px 30px 1px;
+    width: 38px;
+    height: 28px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #295c7a;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.who-are-we .card3 .card-arr{
+    position: absolute;
+    background-image: url(../02/images/arrow.svg);
+    width: 16px;
+    height: 10px;
+    left: 80px;
+    top: 18.2px;
+}
+
+/*the spacing btw card 3 and 4 has to be arrange*/
+
+.who-are-we .card4{
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 845px;
+    margin-left: 956px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #295C7A;
+padding: 0px;
+
+width: 238px;
+height: 314px;
+
+
+}
+.who-are-we .card4 .image1{
+    position: absolute;
+    height: 48px;
+    background-image: url(../02/images/56.svg);
+width: 48px;
+left: 40px;
+top: 35px;
+border-radius: 0px;
+width: 48px;
+height: 48px;
+}
+
+.who-are-we .card4 .text1{
+    position: absolute;
+    
+left: 40px;
+top: 95px;
+    width: 125px;
+height: 48px;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+color: #FFFFFF;
+
+}
+
+.who-are-we .card4 .text2{
+    position: relative;
+    width: 148px;
+height: 40px;
+margin: 5px 43px 0 40px;
+top: 165px;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+}
+
+.who-are-we .card4 .card-btn{
+    position: absolute;
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px 36px;
+gap: 10px;
+margin: 235px 66px 35px 35px;
+
+width: 110px;
+height: 48px;
+background: #FFFFFF;
+border-radius: 37px;
+flex: none;
+order: 3;
+flex-grow: 0;
+    /* box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 30px;
+gap: 10px;
+margin: 235px 66px 35px 35px;
+
+width: 124px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #295C7A;
+border-radius: 37px;
+flex: none;
+order: 3; */
+}
+
+.who-are-we .card4 .card-txt{
+    position: absolute;
+    margin: 1px 36px 10px 36px;
+    width: 38px;
+    height: 28px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #295c7a;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.who-are-we .who-are-we-title{
+    position: absolute;
+    width: 251px;
+height: 50px;
+font-family: "Martel";
+margin: 0 530px 0 530px;
+margin-top: 1260px;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.who-are-we .who-are-we-title .who-lorem{
+    position: absolute;
+    width: 468px;
+height: 40px;
+
+/* paragraph */
+
+font-family: 'Open Sans';
+font-style: normal;
+top: 515px;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* light-text-color */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
 }
