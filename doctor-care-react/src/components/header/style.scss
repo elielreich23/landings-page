@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --green: #00856f;
+    --txt-color: #F7F9F9;
+    --font-family: "DM Sans";
+    --txt-height: 21px;
+    --font-weight: 400;
+}
+
+
+.header{
+    position: absolute;
+width: 100%;
+height: 478px;
+
+margin-top: 4.25rem;
+background: #DCE9E2;
+}
