@@ -19,7 +19,7 @@ const Header = () => {
           </div>
           <div className="btn">
             <div className="btn-icon">
-              
+
             </div>
             <div className="btn-txt">
               Agende sua consulta
@@ -33,24 +33,30 @@ const Header = () => {
         <div className="counter">
           <div className="sec1">
             <div className="txt1">
-            +3.500
+              +3.500
             </div>
             <div className="txt2">
-            Pacientes atendidos
+              Pacientes atendidos
             </div>
           </div>
           <div className="line1"></div>
           <div className="sec2">
             <div className="txt3">
-            +15
+              +15
             </div>
             <div className="txt4">
-            Especialistas disponíveis
+              Especialistas disponíveis
             </div>
           </div>
-          <div className="sec2">
-            <div className="txt5"></div>
-            <div className="txt6"></div>
+          <div className="line2"></div>
+
+          <div className="sec3">
+            <div className="txt5">
+              +10
+            </div>
+            <div className="txt6">
+              Anos no mercado
+            </div>
           </div>
         </div>
       </div>

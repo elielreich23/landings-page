@@ -204,7 +204,7 @@
         }
 
         .sec2 {
-             position: relative;
+            position: relative;
             width: 227px;
             height: 50px;
             left: 498px;
@@ -227,7 +227,7 @@
             }
 
             .txt4 {
-               
+
                 width: 183px;
                 height: 24px;
                 left: 50px;
@@ -242,6 +242,59 @@
                 color: #00856F;
             }
         }
+
+        .sec3 {
+            position: absolute;
+            width: 131px;
+            height: 90px;
+            left: 812px;
+            top: 61px;
+            // background-color: #00856F;
+
+            .txt5 {
+                position: absolute;
+                width: 80px;
+                height: 62px;
+                top: -15px;
+                // left: 1007px;
+                // top: 631px;
+                font-family: "DM Sans";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 130%;
+                color: #212529;
+
+            }
+
+            .txt6 {
+                position: relative;
+                width: 131px;
+                height: 24px;
+                left: -15px;
+                top: 57px;
+
+                font-family: "DM Sans";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #00856F;
+            }
+        }
+        .line2 {
+
+            position: absolute;
+            width: 83px;
+            height: 0px;
+            left: 698px;
+            top: 114px;
+
+            opacity: 0.5;
+            border: 1px solid #010a09;
+            transform: rotate(90deg);
+        }
+
     }
 
 
