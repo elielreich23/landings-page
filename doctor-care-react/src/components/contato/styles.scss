@@ -1,0 +1,126 @@
+.contact-bx {
+    position: absolute;
+    width: 100%;
+    height: 699px;
+    // left: 105px;
+    top: 2494px;
+
+    /* Secondary Colors/White */
+
+    background: #ffffff;
+
+
+    .contato {
+        position: absolute;
+        width: 304px;
+        height: 204px;
+        left: 123px;
+        top: 198px;
+        // background-color: red;
+
+
+        .text {
+            position: absolute;
+            width: 404px;
+            height: 104px;
+            left: 2px;
+            top: 1px;
+
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 52px;
+
+            /* Secondary Colors/gray-headline */
+
+            color: #212529;
+        }
+
+        .address {
+            position: absolute;
+            width: 186px;
+            height: 24px;
+            left: 43px;
+            top: 122px;
+
+            .adrs-icon {
+                position: absolute;
+                left: 5px;
+                // left: 9%;
+                // right: 89.24%;
+                // top: 48.93%;
+                // bottom: 47.64%;
+                background-image: url(../../assets/map.svg);
+            }
+        }
+
+        .mail {
+            position: absolute;
+            width: 224px;
+            height: 24px;
+            left: 43px;
+            top: 152px;
+
+            .mail-icon {
+                position: absolute;
+                left: 9%;
+                right: 89.24%;
+                top: 54.65%;
+                bottom: 41.92%;
+
+            }
+        }
+        .btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 32px;
+            gap: 16px;
+    
+            position: absolute;
+            width: 267px;
+            height: 56px;
+            left: 3px;
+            top: 246px;
+            background: #00856F;
+            border-radius: 40px;
+    
+            .btn-txt {
+                width: 163px;
+                height: 18px;
+    
+                font-family: "DM Sans";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 18px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+            }
+    
+            .btn-icon {
+                width: 20px;
+                height: 20px;
+                background-image: url(../../assets/whatsapp.svg);
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+        }
+    }
+
+
+    .image {
+        position: relative;
+        width: 575px;
+        height: 379px;
+        left: 618px;
+        top: -5px;
+        background-image: url(../../assets/pic.jpg);
+    }
+}

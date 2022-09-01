@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.scss'
-import Navbar from '../navbar/Navbar'
+import Navbar from '../navbar/Index'
 
 const Servicos = () => {
   return (
