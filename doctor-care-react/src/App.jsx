@@ -1,3 +1,4 @@
+//falta crea a reponsividade para cada components
 import React from 'react'
 import Header from './components/header/Index'
 import Servicos from './components/servicos/Index'
