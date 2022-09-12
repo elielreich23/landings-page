@@ -1,4 +1,7 @@
 //falta crea a reponsividade para cada components
+/* adicinar o google map usando api 
+cria um entre e, contato o footer
+cria ssr para alguns components para tornar o projeto mais leve */
 //quando tu vai editar o scss tu pode commentar meu codigo e refazer o estilo se dar muito trabalho so editar o sass do jeito que eu fiz
 import React from 'react'
 import Header from './components/header/Index'
