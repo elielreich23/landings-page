@@ -1,10 +1,11 @@
 import React from 'react'
-import  './App.scss'
+import Header from './components/header/Index'
 
 const App = () => {
   return (
     <>
     <div className="App">
+      <Header/>
       
     </div>
     
