@@ -10,11 +10,10 @@
 
 
 .header{
-    position: absolute;
+    position: fixed;
+    height: 35em;
     width: 100%;
-    height: 38rem;
-
-    margin-top: 4.25rem;
-    background: #DCE9E2;
+    top: 0;
+    background: #5a8d72;
 
 }
