@@ -9,11 +9,19 @@
 
 
 
-.header{
+.header {
     position: fixed;
-    height: 35em;
+    height: 45em;
     width: 100%;
     top: 0;
     background: #5a8d72;
+
+    .cover {
+        position: absolute;
+        width: 100%;
+        top: -2em;
+        bottom: 122px;
+       background-image: url("../../assets/cover.png");
+    }
 
 }

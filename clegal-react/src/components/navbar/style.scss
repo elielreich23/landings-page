@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.container {
+    position: absolute;
+    
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    left: 8em;
+    width: 60em;
+    z-index: 1;
+
+    .logo {
+        position: absolute;
+        width: 76px;
+        height: 32px;
+        left: 0px;
+        top: 58px;
+
+        font-family: "Martel";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+    }
+
+    .nav-menu {
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        gap: 21px;
+        height: 24px;
+        align-items: center;
+        right: 15em;
+        padding-left: 8em;
+        margin-top: 3em;
+
+        .nav-links {
+            color: white;
+            left: 15em;
+            // margin-left: em;
+
+            :hover {
+                color: #454641;
+                transition: all 0.3s ease;
+            }
+        }
+
+        
+
+
+    }
+    .fa-bars{
+        position: absolute;
+        color: #FFFFFF;
+        right: 2rem;
+        top: 3em;
+    }
+    .search{
+        position: absolute;
+        color: #FFFFFF;
+        right: 18rem;
+        top: 3em;
+    }
+
+    .cart{
+        position: absolute;
+        color: #FFFFFF;
+        right: 15rem;
+        top: 3em;
+    }
+}
