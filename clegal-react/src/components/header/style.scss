@@ -21,7 +21,171 @@
         width: 100%;
         top: -2em;
         bottom: 122px;
-       background-image: url("../../assets/cover.png");
+        background-image: url("../../assets/cover.png");
+
+        .txt1 {
+            position: relative;
+            width: 862px;
+            height: 143px;
+
+            /* h1 */
+
+            font-family: "Martel";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 58px;
+            line-height: 65px;
+            margin: 214px 289px 362px 289px;
+            /* or 112% */
+
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+        .txt2 {
+
+
+            width: 539px;
+            height: 60px;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            // top: 40px;
+            margin: 40px 160.5px 128px 160.5px;
+            /* or 150% */
+
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+            opacity: 0.5;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+
+        }
+
     }
+
+    .btns {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+
+        width: 347px;
+        height: 48px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+
+        .btn1 {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 36px;
+            gap: 10px;
+            margin: 467px 711.5px 174px 546.5px;
+            width: 182px;
+            height: 48px;
+            background: #D0A144;
+            border-radius: 37px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            .text {
+                width: 110px;
+                height: 28px;
+
+                /* btn-text */
+
+                font-family: "Open Sans";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 28px;
+                /* identical to box height, or 200% */
+
+                text-align: center;
+                letter-spacing: 0.2px;
+                color: #FFFFFF;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+        }
+
+        .btn2 {
+            position: absolute;
+            box-sizing: border-box;
+
+            /* Auto layout */
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 36px;
+            gap: 10px;
+
+            width: 155px;
+            height: 48px;
+
+            border: 1px solid #FFFFFF;
+            border-radius: 37px;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin: 467px 546.5px 174px 738.5px;
+
+            .text2 {
+                width: 110px;
+                height: 28px;
+
+                /* btn-text */
+
+                font-family: "Open Sans";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 28px;
+                /* identical to box height, or 200% */
+
+                text-align: center;
+                letter-spacing: 0.2px;
+                color: #FFFFFF;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+        }
+    }
+
+    .banner {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 30px;
+
+        width: 1049px;
+        height: 96px;
+
+        background: #FFFFFF;
+       margin: 33em 12.219em 5em 12.219em;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
 
 }
