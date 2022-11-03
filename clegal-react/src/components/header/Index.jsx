@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <Navbar />
-      <div className="header">
+      <div className="header">                   
         <div className="cover">
           <h1 className="txt1">
             Help to reclaim your life and freedom
